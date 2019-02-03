@@ -16,6 +16,7 @@ public class SingletonConcept {
 	private SingletonConcept()
 	{
 		str = "Test";
+		//System.out.println("Done");
 	}
 	
 	public static SingletonConcept getInstance()
